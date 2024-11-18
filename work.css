@@ -1,0 +1,40 @@
+.body{
+    display: flex;
+    background-color: rgb(10, 10, 109);
+  
+}
+.container{
+    max-width: 400px;
+    text-align: center;
+    color: white;
+    background-color: rgb(48, 47, 47);
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+    position: relative;
+    place-content: center;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+}
+input[type ="number"]{
+    width: calc(100% -22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px;
+    padding: 9px;
+}
+button:hover{
+    color: red;
+    background-color: green;
+}
